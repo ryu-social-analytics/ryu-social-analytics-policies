@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ryu Social Analytics</title>
+<meta name="description" content="Ryu Social Analytics — a social media analytics application used to analyze post performance and account statistics from authorized social media accounts. Privacy Policy, Terms of Service, and Data Deletion Instructions.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+  <header class="site-header">
+    <a class="brand" href="/">Ryu Social Analytics</a>
+    <nav class="site-nav">
+      <a href="/privacy/">Privacy Policy</a>
+      <a href="/terms/">Terms of Service</a>
+      <a href="/data-deletion/">Data Deletion Instructions</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Ryu Social Analytics</h1>
+    <p class="tagline">
+      A social media analytics application that helps FRESH CHARM understand
+      how its content performs across the social media platforms it uses.
+    </p>
+
+    <h2>What Ryu Social Analytics Is</h2>
+    <p>
+      Ryu Social Analytics is a social media analytics application built to
+      support FRESH CHARM's social media operations. It connects, through
+      each platform's own official developer API and OAuth authorization, to
+      social media accounts owned by FRESH CHARM and by FRESH CHARM's
+      members/staff, in order to read public post content and performance
+      data and turn it into internal reports and analysis that inform
+      FRESH CHARM's content and social media strategy.
+    </p>
+
+    <h2>What It Does</h2>
+    <ul>
+      <li><strong>Detects new posts</strong> published by a connected account.</li>
+      <li><strong>Tracks performance metrics over time</strong> &mdash; for example, views, likes, comments, and shares &mdash; for posts from a connected account.</li>
+      <li><strong>Records account-level statistics</strong> such as follower counts.</li>
+      <li><strong>Produces internal analysis and reports</strong> comparing how content performs, to support FRESH CHARM's own decision-making.</li>
+    </ul>
+    <p>
+      Ryu Social Analytics is <strong>read-only</strong>: it does not post,
+      comment, like, follow, upload, or otherwise write to any connected
+      account, on any platform.
+    </p>
+
+    <h2>Who It Is For</h2>
+    <p>
+      Ryu Social Analytics is used by FRESH CHARM's management to analyze
+      FRESH CHARM's own official social media presence and the personal
+      accounts of members/staff who have chosen to connect their accounts.
+      Every connected account belongs to FRESH CHARM or to a FRESH CHARM
+      member/staff account owner who has personally completed that
+      platform's OAuth authorization for their own account.
+    </p>
+
+    <h2>Supported Platforms</h2>
+    <p>Ryu Social Analytics currently connects to:</p>
+    <ul>
+      <li><strong>X (Twitter)</strong></li>
+      <li><strong>Instagram</strong></li>
+      <li><strong>TikTok</strong></li>
+    </ul>
+    <p>
+      See the <a href="#tiktok-integration">TikTok Integration</a> section
+      below for TikTok-specific detail. We may add support for additional
+      platforms in the future; our <a href="/privacy/">Privacy Policy</a>
+      will be updated before any new platform integration goes live.
+    </p>
+
+    <h2 id="tiktok-integration">TikTok Integration</h2>
+    <p>
+      On TikTok, Ryu Social Analytics uses TikTok Login Kit to obtain OAuth
+      authorization from the owner of a TikTok account, and TikTok's Display
+      API to read that account's public videos and account statistics.
+      Specifically:
+    </p>
+    <ul>
+      <li>The account owner signs in to TikTok and explicitly grants the requested permissions through TikTok's own OAuth consent screen.</li>
+      <li>Ryu Social Analytics reads the authorized account's public video list and per-video metrics (for example, view, like, comment, and share counts) and account statistics (for example, follower count).</li>
+      <li>Ryu Social Analytics <strong>does not post, upload, or otherwise write to a TikTok account</strong> &mdash; it only reads data the account owner has authorized.</li>
+      <li>Authorization can be revoked by the account owner at any time from TikTok's own settings; see our <a href="/data-deletion/">Data Deletion Instructions</a>.</li>
+    </ul>
+
+    <h2>Policies</h2>
+    <ul class="card-links">
+      <li>
+        <a href="/privacy/">Privacy Policy</a>
+        <span class="desc">What information we collect, how it is used, stored, and shared.</span>
+      </li>
+      <li>
+        <a href="/terms/">Terms of Service</a>
+        <span class="desc">The terms governing use of Ryu Social Analytics.</span>
+      </li>
+      <li>
+        <a href="/data-deletion/">Data Deletion Instructions</a>
+        <span class="desc">How to revoke access and request deletion of collected data.</span>
+      </li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about Ryu Social Analytics can be directed to
+      <a href="mailto:rynskymch01@gmail.com">rynskymch01@gmail.com</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Contact: <a href="mailto:rynskymch01@gmail.com">rynskymch01@gmail.com</a></p>
+  </footer>
+</div>
+</body>
+</html>

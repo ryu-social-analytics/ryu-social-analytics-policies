@@ -1,0 +1,140 @@
+/* Ryu Social Analytics — shared minimal stylesheet.
+   No external fonts, no external resources of any kind. System font stack only. */
+
+:root {
+  --text: #1a1a1a;
+  --muted: #555555;
+  --bg: #ffffff;
+  --border: #e0e0e0;
+  --link: #0b5fff;
+  --link-visited: #6a3fc9;
+  --max-width: 760px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0 1rem;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 0 4rem;
+}
+
+header.site-header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+header.site-header .brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+nav.site-nav {
+  margin-top: 0.75rem;
+}
+
+nav.site-nav a {
+  margin-right: 1.25rem;
+  font-size: 0.95rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 1.25rem;
+}
+
+p, li {
+  color: var(--text);
+}
+
+.updated {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+footer.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.tagline {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.card-links {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.card-links li {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  padding: 0.9rem 1.1rem;
+}
+
+.card-links a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
+}
+
+.card-links .desc {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.15rem;
+}
